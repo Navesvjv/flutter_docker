@@ -1,11 +1,14 @@
 ## Flutter + Docker
-Dockerizando flutter com vs code.
+Dockerize flutter apps with vs code.
 
-## Instalações
+## Installation
 
-Instale o [Docker](https://www.docker.com/)
+Install the [Docker](https://www.docker.com/)
 
-Instale o [VS Code](https://code.visualstudio.com/) e instale as duas extensões a seguir:
+Install the [VS Code](https://code.visualstudio.com/) and add two extensions:
 
-![Extensão Docker](print/Docker.png)
-![Extensão Remote Development](print/Remote_development.png)
+- Extension [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)  
+- Extension [Remote Development]([print/Remote_development.png](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack))
+
+## Usage
+1. Clone this repository.
