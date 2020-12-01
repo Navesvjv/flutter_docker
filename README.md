@@ -8,7 +8,7 @@ Install the [Docker](https://www.docker.com/)
 Install the [VS Code](https://code.visualstudio.com/) and add two extensions:
 
 - [Docker](https://marketplace.visualstudio.com/items?itemName=ms-azuretools.vscode-docker)
-- [Remote Development]([print/Remote_development.png](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack))
+- [Remote Development](https://marketplace.visualstudio.com/items?itemName=ms-vscode-remote.vscode-remote-extensionpack)
 
 ## Usage
 1. Clone this repository.
