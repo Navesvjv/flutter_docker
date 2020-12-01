@@ -33,8 +33,8 @@ Create a ubuntu based container.
 ```Dockerfile
 RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
 ```
-``curl git unzip xz-utils zip libglu1-mesa`` is required by Flutter SDK
-``openjdk-8-jdk`` is required by Android SDK
+``curl git unzip xz-utils zip libglu1-mesa`` is required by Flutter SDK  
+``openjdk-8-jdk`` is required by Android SDK  
 ``wget`` will be used for downloading some Android tools
 
 ```Dockerfile
