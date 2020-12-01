@@ -24,8 +24,8 @@ Install the [VS Code](https://code.visualstudio.com/) and add two extensions:
 ## Understanding files
 ### Dockerfile
 
-	FROM ubuntu:20.04
-	
+	**FROM** ubuntu:20.04
+
 Create a ubuntu based container
 
 	RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
