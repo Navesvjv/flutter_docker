@@ -22,8 +22,9 @@ Install the [VS Code](https://code.visualstudio.com/) and add two extensions:
 6. Create your projects inside the ``workspace`` folder.
 
 ## Understanding files
-#### Dockerfile
+### Dockerfile
 	FROM ubuntu:18.04
+_Create a ubuntu based container_
 Create a ubuntu based container
 	
 
