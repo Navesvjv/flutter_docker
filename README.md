@@ -20,6 +20,13 @@ Install the [VS Code](https://code.visualstudio.com/) and add two extensions:
 4. Select the root directory that contains the Dockerfile and click Open to start building the container.
 5. Wait for the download and settings to complete.
 6. Create your projects inside the ``workspace`` folder.
+
+## Understanding files
+#### Dockerfile
+	FROM ubuntu:18.04
+Create a ubuntu based container
+	
+
 ## Contributing
 Pull requests are always welcome.  
 👊
