@@ -33,10 +33,16 @@ Create a ubuntu based container.
 ```Dockerfile
 RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
 ```
-- ``curl git unzip xz-utils zip libglu1-mesa`` is required by Flutter SDK
-- ``openjdk-8-jdk`` is required by Android SDK
-- ``wget`` will be used for downloading some Android tools
-	
+``curl git unzip xz-utils zip libglu1-mesa`` is required by Flutter SDK
+``openjdk-8-jdk`` is required by Android SDK
+``wget`` will be used for downloading some Android tools
+
+```Dockerfile
+RUN useradd -ms /bin/bash developer
+USER developer
+WORKDIR /home/developer
+```
+Add a new non-root user called developer, set it as the current user, and change the working directory to its home directory.
 
 ## Contributing
 Pull requests are always welcome.  
