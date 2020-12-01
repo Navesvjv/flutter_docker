@@ -23,9 +23,16 @@ Install the [VS Code](https://code.visualstudio.com/) and add two extensions:
 
 ## Understanding files
 ### Dockerfile
-	FROM ubuntu:18.04
-_Create a ubuntu based container_
+
+	FROM ubuntu:20.04
+	
 Create a ubuntu based container
+
+	RUN apt update && apt install -y curl git unzip xz-utils zip libglu1-mesa openjdk-8-jdk wget
+
+- curl git unzip xz-utils zip libglu1-mesa is required by Flutter SDK
+- openjdk-8-jdk is required by Android SDK
+- wget will be used for downloading some Android tools
 	
 
 ## Contributing
