@@ -24,7 +24,9 @@ Install the [VS Code](https://code.visualstudio.com/) and add two extensions:
 ## Understanding files
 ### Dockerfile
 
-	**FROM** ubuntu:20.04
+```Dockerfile
+FROM ubuntu:20.04
+```
 
 Create a ubuntu based container
 
