@@ -42,7 +42,14 @@ RUN useradd -ms /bin/bash developer
 USER developer
 WORKDIR /home/developer
 ```
-Add a new non-root user called developer, set it as the current user, and change the working directory to its home directory.
+Add a new non-root user called **developer**, set it as the **current user**, and change the working directory to its **home** directory.
+
+```Dockerfile
+RUN mkdir -p Android/sdk
+ENV ANDROID_SDK_ROOT /home/developer/Android/sdk
+RUN mkdir -p .android && touch .android/repositories.cfg
+```
+Create some folders where the **Android SDK** will be installed. Also, set the environment variable ``ANDROID_SDK_ROOT`` to the correct directory path—this will be used by Flutter.
 
 ## Contributing
 Pull requests are always welcome.  
